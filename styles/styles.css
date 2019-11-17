@@ -1,0 +1,209 @@
+body {
+  background-image: linear-gradient(to right, #AD0108, #000000, #000000, #000000, #000000, #AD0108)
+}
+
+.main_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+  color: #f7f7f7;
+}
+
+.theater_name {
+  font-family: "Shadows Into Light";
+  font-size: 56px;
+}
+
+.sub_list {
+  display: none;
+}
+
+.sub_list li {
+  margin-left: 20px;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+}
+
+.sub_list a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+.sub_list a:hover {
+  color: tomato;
+}
+
+#hamburg-menu {
+  background-color: #4c4d57;
+  bottom: 0;
+  display: none;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#close_nav {
+  border: none;
+  color: #fff;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.hamburg-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 31px;
+}
+
+.hamburg-links a {
+  color: #f7f7f7;
+  font-size: 2em;
+  line-height: 1.75em;
+  padding: 0 31px;
+  text-decoration: none;
+}
+
+.hamburg-links input {
+  padding: 0 31px;
+}
+
+.menu_bar i::before {
+  background-color: transparent;
+  color: #f7f7f7;
+}
+
+.sub_list input[type=text] {
+font-size: 17px;
+}
+
+.filminfo {
+  display: grid;
+  grid-template-columns: 2fr repeat(8,1fr) 2fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 5px;
+}
+
+h1 {
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 26px;
+}
+
+h3 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 25px;
+}
+
+.csoon {
+  font-family: "Bebas Neue";
+}
+
+.info {
+  font-family: "Bebas Neue";
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.syno {
+  font-family: "Bebas Neue";
+  margin-bottom: 5px;
+}
+
+p {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.basicinfo {
+  grid-area: 1/4/2/8;
+  justify-self: center;
+}
+
+.posterimage {
+  max-width: 100%;
+}
+
+.trailer {
+  display: inline;
+}
+
+.poster {
+  grid-area: 2/3/3/9;
+  justify-self: center;
+}
+
+.playtrailer {
+  grid-area: 3/4/4/8;
+  justify-self: center;
+}
+
+.breakdown {
+  grid-area: 4/4/5/8;
+}
+
+.synopsis {
+  grid-area: 5/3/6/9;
+}
+
+@media screen and (min-width: 575px) {
+
+  .menu_bar {
+    display: none;
+  }
+
+  .sub_list {
+    display: flex;
+  }
+
+.poster {
+  grid-area: 2/3/3/6;
+  justify-self: center;
+}
+
+.breakdown {
+  grid-area: 2/6/3/9;
+}
+
+.playtrailer {
+  grid-area: 3/3/4/6;
+  justify-self: center;
+}
+
+.synopsis {
+  grid-area: 4/3/5/9;
+}
+
+}
+
+@media screen and (min-width: 991px){
+
+.poster {
+  grid-area: 2/2/3/4;
+  justify-self: center;
+}
+
+.synopsis {
+  grid-area: 2/6/4/10;
+}
+
+.breakdown {
+  grid-area: 2/4/4/5;
+}
+
+.playtrailer {
+  grid-area: 3/2/4/4;
+  justify-self: center;
+}
+
+.fa-play-circle {
+  color: white;
+};
+
+}

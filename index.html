@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weathering With You | Funtime Theaters</title>
+
+    <!-- Type -->
+      <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:400,400i,700|Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!-- Styling -->
+      <link rel="stylesheet" href="styles/reset.css">
+      <link rel="stylesheet" href="styles/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+
+      <div id="hamburg-menu">
+        <div class="hamburg-content">
+          <div class="hamburg-nav">
+            <h1 class="theater_name">FunTime Theaters</h1>
+            <button id="close_nav" onclick="closeNavMenu()" class="close-button">x</button>
+          </div>
+          <ul class="hamburg-links">
+            <li><a href="" onClick="closeNavMenu()">Movies</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">More</a></li>
+            <li><input type="text" placeholder="Search"></li>
+          </ul>
+        </div>
+      </div>
+
+      <nav>
+        <div class="topnav">
+          <ul class="main_list">
+            <li class="theater_name">Funtime Theaters</li>
+            <li class="menu_bar" id="menu_bar">
+                <button onclick="openNavMenu()" class="hidden"><i class="fas fa-bars fa-2x"></i></button></li>
+            <li>
+              <ul class="sub_list">
+                <li><a href="">Movies</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">More</a></li>
+                <li><input type="text" placeholder="Search"></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="filmcontent">
+        <section class="filminfo">
+          <div class="basicinfo">
+            <h1>Weathering With You</h1>
+            <h3>Animation | PG-13 | 112min</h4>
+          </div>
+          <div class="poster">
+            <img src="assets/Weathering_with_You_Poster.jpg" class="posterimage" alt="poster">
+          </div>
+          <div class="breakdown">
+            <h3 class="csoon">Coming Soon</h3>
+            <h3 class="info">RELEASE DATE</h3>
+            <p>January 17, 2020</p>
+            <h3 class="info">GENRE</h3>
+            <p>Romance, Fantasy</p>
+            <h3 class="info">DIRECTOR</h3>
+            <p>Makoto Shinkai</p>
+            <h3 class="info">CAST</h3>
+            <p>Kotaro Daigo, Nana Mori, Aoi Yuki, Ryohei Kimura</p>
+          </div>
+          <div class="synopsis">
+            <h3 class="syno">SYNOPSIS</h3>
+            <p>High school freshman Hodaka Morishima leaves his home on an isolated island and moves to Tokyo, but he immediately becomes broke. He lives his days in isolation, but finally finds a job
+              as a writer for a shady occult magazine. After he starts his job, the weather has been rainy day after day. Then one day in a alley of the crowded and busy city, Hodaka meets a young girl
+              named Hina Amano. Due to certain circumstances, Hina and her younger brother live together, but have a cheerful and sturdy life. This bright and strong­willed girl possesses a strange and
+              wonderful ability: the power to stop the rain and clear the sky.</p>
+          </div>
+          <div class="playtrailer">
+            <a class="popup-youtube" href="https://www.youtube.com/watch?v=npb-j9Q-1HY"><i class="far fa-play-circle fa-lg"></i></a>
+            <a class="popup-youtube" href="https://www.youtube.com/watch?v=npb-j9Q-1HY"><h3 class="info trailer">Watch the trailer</h3></a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- Magnific Popup -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <!-- popup script -->
+    <script type="text/javascript" src="scripts/popup.js"></script>
+    <!-- menu script -->
+    <script type="text/javascript" src="scripts/menu.js"></script>
+  </body>
+</html>
